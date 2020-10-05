@@ -17,11 +17,11 @@
 
         }
 
-        public static double GetCircleArea(double r);
-        {
-            double aux = r * r;
-            double aux2 = System.Math.PI * (aux);
+        //public static double GetCircleArea(double r);
+        //{
+        //    double aux = r * r;
+        //  double aux2 = System.Math.PI * (aux);
            
-        }
+        //}
     }
 }

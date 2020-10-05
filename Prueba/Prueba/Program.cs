@@ -6,7 +6,11 @@ namespace Prueba
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!!!");
+            Ejercicios.Ejercicio1();
+
+            Ejercicios.Ejercicio2(20);
+
+            Maths.IsPrime(9);
         }
     }
 }

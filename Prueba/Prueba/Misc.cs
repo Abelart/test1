@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ecuaciones
+namespace Prueba
 {
     class Misc
     {

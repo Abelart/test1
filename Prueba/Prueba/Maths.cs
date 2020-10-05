@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ecuaciones
+namespace Prueba
 {
     class Maths
     {
-        public static Equation2solution SolveEquation(double a, double b, double c)
-        {
+       // public static Equation2solution SolveEquation(double a, double b, double c)
+        //{
             /*
             double aux1, aux2;
             Equation2solution result;
@@ -21,16 +21,28 @@ namespace Ecuaciones
             result.solution2 = (-b - aux2) / (2 * a);
             return result;
             */
-            return null;
+        //    return null;
 
         }
 
-        public static double SolveEquation2(double a, double b)
-        {
-            double x;
-            x = -b / a;     
-            return x;
+     //   public static double SolveEquation2(double a, double b)
+        //{
+      //      double x;
+        //    x = -b / a;     
+          //  return x;
 
+        }
+
+        public static bool IsPrime(int number)
+        {
+            int i = 2;
+            while (i < number)
+            {
+                if ((number % i) == 0)
+                    return false;
+                i++;
+            }
+            return true;
         }
 
     }
