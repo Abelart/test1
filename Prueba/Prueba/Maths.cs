@@ -23,7 +23,7 @@ namespace Prueba
             */
         //    return null;
 
-        }
+        //}
 
      //   public static double SolveEquation2(double a, double b)
         //{
@@ -31,7 +31,7 @@ namespace Prueba
         //    x = -b / a;     
           //  return x;
 
-        }
+        //}
 
         public static bool IsPrime(int number)
         {
@@ -44,6 +44,8 @@ namespace Prueba
             }
             return true;
         }
+
+
 
     }
 }

@@ -6,11 +6,14 @@ namespace Prueba
     {
         static void Main(string[] args)
         {
-            Ejercicios.Ejercicio1();
+            Student s1, s2;
+            s1 = new Student();
+            s2 = new Student();
 
-            Ejercicios.Ejercicio2(20);
+            s1.name = "Abel";
+            s1.name = "Alex";
 
-            Maths.IsPrime(9);
+
         }
     }
 }
